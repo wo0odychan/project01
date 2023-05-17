@@ -22,8 +22,8 @@
     margin: 0 0 0 auto;
 }
 
-#header .insta {
-    margin: 0 0 0 50px;
+#header .cart {
+    margin: 0 0 0 30px;
     color: rgba(27, 94, 170);
     font-size: 20px;
 }
@@ -59,20 +59,24 @@
 
 .section img {
     width: 100%;
-    height: 400px;
-    margin: 0 auto;
+    height: 250px;
+    transform: translate(10%, 5%);
 }
 
 .section .tit h2 {
     font-size: 60px;
+    text-align: center;
     color: rgba(27, 94, 170);
     font-weight: 700;
+    margin: 60px 0 0 0;
+
 }
 
 .section .tit p {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin: 20px auto;
+
 }
 
 #mainVisual .itm {
@@ -154,12 +158,32 @@
 }
 
 /* 박스 */
+
+.content h2 {
+    font-size: 50px;
+    text-align: center;
+    color: rgba(27, 94, 170);
+    font-weight: 700;
+    margin: 50px 0 0 0;
+}
+
+.content p{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 60px 0;
+}
+
+.inner .box p {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;}
+
 .content .inner {
     display: flex;
     gap: 30px;
     width: 1200px;
     margin: 0px auto;
-    padding: 0 10px;
 }
 
 .content .inner figure {
@@ -169,7 +193,6 @@
 }
 
 .content .inner figure img {
-    width: 100%;
     transition: 0.5s;
 }
 
@@ -177,8 +200,47 @@
     transform: scale(1.2);
 }
 
-.inner .box {
-    font-size: 30px;
-    text-align: center;
+/* 푸터 */
 
+#footer {
+display: flex;
+height: 70px;
+border-top: 1px solid rgba(27, 94, 170);}
+
+#footer .inner {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#footer .gnb {
+    margin: 0 0 0 auto;
+}
+
+#footer .ins {
+    margin: 0 0 0 30px;
+    color: rgba(27, 94, 170);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#footer .gnb>ul {
+    display: flex;
+    gap: 40px;
+}
+
+#footer .gnb>ul>li {
+    position: relative;
+}
+
+#footer .gnb>ul>li~li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20px;
+    transform: translate(-50% -50%);
+    width: 1px;
+    height: 15px;
+    background: rgba(27, 94, 170);
 }
