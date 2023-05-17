@@ -4,7 +4,9 @@ $(function () {
     });
 
     $('.mainSlide').slick({
-        arrows: false,
+        arrows: true,
         dots: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
     });
 })
