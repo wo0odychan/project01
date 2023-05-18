@@ -75,14 +75,14 @@
     color: rgba(27, 94, 170);
     font-weight: 700;
     margin: 70px 0 0 0;
-    padding: 80px 0 0 0;
+    padding: 80px 0 0 20px;
 }
 
 .top .tit p {
     font-size: 25px;
     text-align: center;
     margin: 0 30px 0 0;
-    padding: 20px 0 0 0;
+    padding: 20px 0 0 20px;
 }
 
 #mainVisual .section {
@@ -227,9 +227,15 @@
 }
 
 .content .inner h2 {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 600;
     padding-top: 10px;
+    margin: 0 0 20px 0;
+}
+
+.content .inner p {
+    font-size: 17px;
+    font-weight: 400;
     margin: 0 0 20px 0;
 }
 
