@@ -1,7 +1,13 @@
 /* 헤더, 메뉴 */
 #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     height: 70px;
+    z-index: 999;
+    background: #fff;
     border-bottom: 1px solid rgba(27, 94, 170);
 }
 
@@ -53,7 +59,7 @@
 .top {
     position: relative;
     max-width: 1200px;
-    height: 200px;
+    height: 250px;
     margin: 0 auto;
 }
 
@@ -68,8 +74,8 @@
     text-align: center;
     color: rgba(27, 94, 170);
     font-weight: 700;
-    margin: 20px 0 0 0;
-    padding: 60px 0 0 0;
+    margin: 70px 0 0 0;
+    padding: 80px 0 0 0;
 }
 
 .top .tit p {
