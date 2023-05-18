@@ -3,10 +3,14 @@ $(function () {
         $('.topBanner').addClass('on')
     });
 
+
     $('.mainSlide').slick({
         arrows: true,
         dots: true,
         autoplay: true,
         autoplaySpeed: 2000,
+        pauseOnHover: false,
+        pauseOnFocus: false,
     });
+
 })
