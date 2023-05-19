@@ -1,8 +1,11 @@
 $(function () {
     $('.topBanner .inner i').on('click', function () {
         $('.topBanner').addClass('on')
-    });
+    })
 
+    $('.right_banner .btn').on('click', function () {
+        $('.right_banner').toggleClass('on')
+    });
 
     $('.mainSlide').slick({
         arrows: true,

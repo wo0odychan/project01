@@ -55,7 +55,37 @@
 }
 
 /* 메인*/
+/* 오른쪽 배너 */
+.right_banner {
+    position: fixed;
+    top: 15%;
+    right: -300px;
+    width: 300px;
+    height: 400px;
+    transition: 0.5s;
+    z-index: 999;
+}
 
+.right_banner.on {
+    right: 0;
+}
+
+.right_banner .btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-100%, 0);
+}
+
+
+.right_banner .btn i {
+    padding: 10px;
+    background-color: rgba(27, 94, 170);
+    color: #fff;
+    font-size: 18px;
+}
+
+/* 탑 */
 .top {
     position: relative;
     max-width: 1200px;
